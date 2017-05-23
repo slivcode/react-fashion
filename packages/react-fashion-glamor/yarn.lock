@@ -89,9 +89,9 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-react-fashion@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/react-fashion/-/react-fashion-0.0.1.tgz#4e16a584c208104bae56456b069d7cb7b9a614cb"
+react-fashion@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-fashion/-/react-fashion-0.0.2.tgz#d47c6c89af62f195569b4474c995c8e788812e3e"
 
 regenerator-runtime@^0.10.0:
   version "0.10.5"

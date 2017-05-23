@@ -1,0 +1,42 @@
+/// <reference types="react" />
+import { CSSProperties } from 'react';
+export declare const transitionStr: (o: Partial<Record<keyof CSSProperties, string>>) => string;
+export declare type T_filterProps = {
+    none;
+    blur;
+    brightness;
+    contrast;
+    'drop-shadow';
+    grayscale;
+    'hue-rotate';
+    'invert';
+    'opacity';
+    'saturate';
+    'sepia';
+    'url';
+};
+export declare const filterStr: (o: Partial<Record<keyof T_filterProps, string | number>>) => string;
+export declare type T_transformProps = {
+    matrix;
+    translate;
+    translateX;
+    translateY;
+    scale;
+    scaleX;
+    scaleY;
+    rotate;
+    skew;
+    skewX;
+    skewY;
+    matrix3d;
+    translate3d;
+    translateZ;
+    scale3d;
+    scaleZ;
+    rotate3d;
+    rotateX;
+    rotateY;
+    rotateZ;
+    perspective;
+};
+export declare const transformStr: (o: Partial<Record<keyof T_transformProps, string | number>>) => string;

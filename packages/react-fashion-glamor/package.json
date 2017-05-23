@@ -2,6 +2,7 @@
   "name": "react-fashion-glamor",
   "version": "0.0.1",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "author": "sliv <sliv.mbp@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -13,7 +14,7 @@
     "README.md"
   ],
   "dependencies": {
-    "react-fashion": "^0.0.1"
+    "react-fashion": "0.0.2"
   },
   "devDependencies": {
     "glamor": "next"
