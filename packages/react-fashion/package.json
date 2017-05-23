@@ -1,0 +1,14 @@
+{
+  "name": "react-fashion",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "sliv <sliv.mbp@gmail.com>",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^15.0.24",
+    "react": "^15.5.4"
+  }
+}

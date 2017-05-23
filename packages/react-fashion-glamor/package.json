@@ -1,0 +1,10 @@
+{
+  "name": "react-fashion-glamor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sliv <sliv.mbp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glamor": "next"
+  }
+}
