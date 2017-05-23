@@ -1,10 +1,12 @@
 {
   "name": "react-fashion-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "lib",
     "README.md"
   ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rm -r lib"
