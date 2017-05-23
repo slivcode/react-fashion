@@ -2,8 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "sourceMap": true,
-    "outDir": "build"
+    "sourceMap": false,
+    "outDir": "lib",
+    "declaration": true
   },
   "exclude": [
     "node_modules"

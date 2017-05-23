@@ -2,13 +2,22 @@
   "name": "react-fashion",
   "version": "0.0.1",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "author": "sliv <sliv.mbp@gmail.com>",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -r lib"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@types/react": "^15.0.24",
-    "react": "^15.5.4"
+    "react": ">14"
+  },
+  "peerDependencies": {
+    "react": ">14"
   }
 }

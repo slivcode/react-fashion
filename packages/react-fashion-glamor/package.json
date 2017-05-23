@@ -1,10 +1,24 @@
 {
   "name": "react-fashion-glamor",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
+  "main": "lib/index.js",
   "author": "sliv <sliv.mbp@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "dependencies": {
+    "react-fashion": "^0.0.1"
+  },
+  "devDependencies": {
     "glamor": "next"
+  },
+  "peerDependencies": {
+    "glamor": "*"
   }
 }

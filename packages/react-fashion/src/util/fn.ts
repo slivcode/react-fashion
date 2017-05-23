@@ -5,7 +5,6 @@ export const compact = a => a.filter(identity);
 export const applyIf = (b, f) => b ? f : identity;
 export const mergeObjArr = (a: Object[]) =>
   a.reduce((pr, ne) => Object.assign(pr, ne), {});
-export const of = a => Array.isArray(a) ? a : [a];
 export const pipe = (...fs) => t => fs.reduce((pr, ne) => ne(pr), t);
 export const partitionObj = <O extends Object> (lKey: string[], o: O) => {
   const isInL = k => lKey.indexOf(k) !== -1;

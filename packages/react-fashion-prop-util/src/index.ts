@@ -1,4 +1,8 @@
-import { objOf } from '../util/fn';
+export function objOf (k) {
+  return function (v) {
+    return ({ [k]: v });
+  };
+}
 export function condProp (key: string, ...rest: [boolean, any][]) {
   const t = rest.find(([b]) => b) || [];
   return objOf(key)(t[1]);
